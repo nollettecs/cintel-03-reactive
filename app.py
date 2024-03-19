@@ -8,7 +8,7 @@ from shiny import reactive, render, req
 import shinyswatch
 
 # Theme
-shinyswatch.theme.sketchy()
+shinyswatch.theme.superhero()
 
 # Built-in function to load the penguin dataset
 penguins_df = palmerpenguins.load_penguins()
